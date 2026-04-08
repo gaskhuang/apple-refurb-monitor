@@ -115,5 +115,20 @@
     "removed_items": [
       "FC6J4TA/A"
     ]
+  },
+  {
+    "time": "2026-04-08T11:50:54.972317",
+    "type": "change",
+    "total": 10,
+    "added": 0,
+    "removed": 4,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FC6K4TA/A",
+      "FRX33TA/A",
+      "G1HE0TA/A",
+      "G1GT4TA/A"
+    ]
   }
 ]

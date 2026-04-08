@@ -1,23 +1,5 @@
 {
   "products": {
-    "FC6K4TA/A": {
-      "title": "15 吋 MacBook Air Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU - 星光色 (整修品)",
-      "refurb_price": 39590,
-      "refurb_display": "NT$39,590",
-      "original_price": 53900,
-      "savings": 14310,
-      "savings_pct": 26.5,
-      "model": "macbookair",
-      "ram": "24gb",
-      "storage": "512gb",
-      "color": "starlight",
-      "year": "2025",
-      "screen": "15inch",
-      "is_nano": false,
-      "price_source": "官方定價",
-      "part_number": "FC6K4TA/A",
-      "detail_url": "https://www.apple.com/tw/shop/product/fc6k4ta/a/15-%E5%90%8B-MacBook-Air-Apple-M4-%E6%99%B6%E7%89%87%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-CPU-%E8%88%87-10-%E6%A0%B8%E5%BF%83-GPU-%E6%98%9F%E5%85%89%E8%89%B2-(%E6%95%B4%E4%BF%AE%E5%93%81)"
-    },
     "G1DH0TA/A": {
       "title": "15 吋 MacBook Air Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU - 午夜色 (整修品)",
       "refurb_price": 39590,
@@ -35,24 +17,6 @@
       "price_source": "官方定價",
       "part_number": "G1DH0TA/A",
       "detail_url": "https://www.apple.com/tw/shop/product/g1dh0ta/a/15-%E5%90%8B-MacBook-Air-Apple-M4-%E6%99%B6%E7%89%87%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-CPU-%E8%88%87-10-%E6%A0%B8%E5%BF%83-GPU-%E5%8D%88%E5%A4%9C%E8%89%B2-(%E6%95%B4%E4%BF%AE%E5%93%81)"
-    },
-    "G1HE0TA/A": {
-      "title": "15 吋 MacBook Air Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU - 天藍色 (整修品)",
-      "refurb_price": 39590,
-      "refurb_display": "NT$39,590",
-      "original_price": 53900,
-      "savings": 14310,
-      "savings_pct": 26.5,
-      "model": "macbookair",
-      "ram": "16gb",
-      "storage": "1tb",
-      "color": "skyblue",
-      "year": "2025",
-      "screen": "15inch",
-      "is_nano": false,
-      "price_source": "官方定價",
-      "part_number": "G1HE0TA/A",
-      "detail_url": "https://www.apple.com/tw/shop/product/g1he0ta/a/15-%E5%90%8B-MacBook-Air-Apple-M4-%E6%99%B6%E7%89%87%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-CPU-%E8%88%87-10-%E6%A0%B8%E5%BF%83-GPU-%E5%A4%A9%E8%97%8D%E8%89%B2-(%E6%95%B4%E4%BF%AE%E5%93%81)"
     },
     "FWUU3TA/A": {
       "title": "24 吋 iMac Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU、Gigabit 乙太網路 - 銀色 (整修品)",
@@ -144,24 +108,6 @@
       "part_number": "FWV33TA/A",
       "detail_url": "https://www.apple.com/tw/shop/product/fwv33ta/a/24-%E5%90%8B-imac-apple-m4-%E6%99%B6%E7%89%87-%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-cpu-%E8%88%87-10-%E6%A0%B8%E5%BF%83-gpu-gigabit-%E4%B9%99%E5%A4%AA%E7%B6%B2%E8%B7%AF-%E8%97%8D%E8%89%B2-%E6%95%B4%E4%BF%AE%E5%93%81"
     },
-    "FRX33TA/A": {
-      "title": "14 吋 MacBook Pro Apple M3 Pro 晶片配備 11 核心 CPU 與 14 核心 GPU - 太空黑色 (整修品)",
-      "refurb_price": 52090,
-      "refurb_display": "NT$52,090",
-      "original_price": 64900,
-      "savings": 12810,
-      "savings_pct": 19.7,
-      "model": "macbookpro",
-      "ram": "18gb",
-      "storage": "512gb",
-      "color": "spaceblack",
-      "year": "2023",
-      "screen": "14inch",
-      "is_nano": false,
-      "price_source": "官方定價",
-      "part_number": "FRX33TA/A",
-      "detail_url": "https://www.apple.com/tw/shop/product/frx33ta/a/%E6%95%B4%E4%BF%AE%E5%93%81-14-%E5%90%8B-macbook-pro-apple-m3-pro-%E6%99%B6%E7%89%87-%E9%85%8D%E5%82%99-11%E2%80%91%E6%A0%B8%E5%BF%83-cpu-%E8%88%87-14%E2%80%91%E6%A0%B8%E5%BF%83-gpu-%E5%A4%AA%E7%A9%BA%E9%BB%91%E8%89%B2"
-    },
     "FCR24TA/A": {
       "title": "24 吋 iMac Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU、Gigabit 乙太網路 - 銀色 (整修品)",
       "refurb_price": 54290,
@@ -216,24 +162,6 @@
       "part_number": "FD2T4TA/A",
       "detail_url": "https://www.apple.com/tw/shop/product/fd2t4ta/a/24-%E5%90%8B-imac-apple-m4-%E6%99%B6%E7%89%87-%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-cpu-%E8%88%87-10-%E6%A0%B8%E5%BF%83-gpu-gigabit-%E4%B9%99%E5%A4%AA%E7%B6%B2%E8%B7%AF-%E8%97%8D%E8%89%B2-%E6%95%B4%E4%BF%AE%E5%93%81"
     },
-    "G1GT4TA/A": {
-      "title": "13 吋 MacBook Air Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU - 星光色 (整修品)",
-      "refurb_price": 57690,
-      "refurb_display": "NT$57,690",
-      "original_price": 71900,
-      "savings": 14210,
-      "savings_pct": 19.8,
-      "model": "macbookair",
-      "ram": "32gb",
-      "storage": "2tb",
-      "color": "starlight",
-      "year": "2025",
-      "screen": "13inch",
-      "is_nano": false,
-      "price_source": "官方定價",
-      "part_number": "G1GT4TA/A",
-      "detail_url": "https://www.apple.com/tw/shop/product/g1gt4ta/a/13-%E5%90%8B-MacBook-Air-Apple-M4-%E6%99%B6%E7%89%87%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-CPU-%E8%88%87-10-%E6%A0%B8%E5%BF%83-GPU-%E6%98%9F%E5%85%89%E8%89%B2-(%E6%95%B4%E4%BF%AE%E5%93%81)"
-    },
     "G1HF4TA/A": {
       "title": "15 吋 MacBook Air Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU - 天藍色 (整修品)",
       "refurb_price": 63390,
@@ -253,6 +181,6 @@
       "detail_url": "https://www.apple.com/tw/shop/product/g1hf4ta/a/15-%E5%90%8B-MacBook-Air-Apple-M4-%E6%99%B6%E7%89%87%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-CPU-%E8%88%87-10-%E6%A0%B8%E5%BF%83-GPU-%E5%A4%A9%E8%97%8D%E8%89%B2-(%E6%95%B4%E4%BF%AE%E5%93%81)"
     }
   },
-  "last_check": "2026-04-08 10:04:02",
-  "last_change": "2026-04-08 10:04:02"
+  "last_check": "2026-04-08 11:50:54",
+  "last_change": "2026-04-08 11:50:54"
 }
