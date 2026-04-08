@@ -130,5 +130,19 @@
       "G1HE0TA/A",
       "G1GT4TA/A"
     ]
+  },
+  {
+    "time": "2026-04-08T13:10:19.026790",
+    "type": "change",
+    "total": 10,
+    "added": 1,
+    "removed": 1,
+    "price_changed": 0,
+    "added_items": [
+      "FRX33TA/A"
+    ],
+    "removed_items": [
+      "G1HF4TA/A"
+    ]
   }
 ]
