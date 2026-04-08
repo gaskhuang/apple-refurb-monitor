@@ -1,23 +1,5 @@
 {
   "products": {
-    "FC6J4TA/A": {
-      "title": "15 吋 MacBook Air Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU - 銀色 (整修品)",
-      "refurb_price": 39590,
-      "refurb_display": "NT$39,590",
-      "original_price": 53900,
-      "savings": 14310,
-      "savings_pct": 26.5,
-      "model": "macbookair",
-      "ram": "24gb",
-      "storage": "512gb",
-      "color": "silver",
-      "year": "2025",
-      "screen": "15inch",
-      "is_nano": false,
-      "price_source": "官方定價",
-      "part_number": "FC6J4TA/A",
-      "detail_url": "https://www.apple.com/tw/shop/product/fc6j4ta/a/15-%E5%90%8B-MacBook-Air-Apple-M4-%E6%99%B6%E7%89%87%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-CPU-%E8%88%87-10-%E6%A0%B8%E5%BF%83-GPU-%E9%8A%80%E8%89%B2-(%E6%95%B4%E4%BF%AE%E5%93%81)"
-    },
     "FC6K4TA/A": {
       "title": "15 吋 MacBook Air Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU - 星光色 (整修品)",
       "refurb_price": 39590,
@@ -271,6 +253,6 @@
       "detail_url": "https://www.apple.com/tw/shop/product/g1hf4ta/a/15-%E5%90%8B-MacBook-Air-Apple-M4-%E6%99%B6%E7%89%87%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-CPU-%E8%88%87-10-%E6%A0%B8%E5%BF%83-GPU-%E5%A4%A9%E8%97%8D%E8%89%B2-(%E6%95%B4%E4%BF%AE%E5%93%81)"
     }
   },
-  "last_check": "2026-04-08 08:10:16",
-  "last_change": "2026-04-08 08:10:16"
+  "last_check": "2026-04-08 10:04:02",
+  "last_change": "2026-04-08 10:04:02"
 }

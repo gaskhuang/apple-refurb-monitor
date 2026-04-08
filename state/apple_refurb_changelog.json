@@ -103,5 +103,17 @@
       "FW1L3TA/A",
       "FW1G3TA/A"
     ]
+  },
+  {
+    "time": "2026-04-08T10:04:02.391932",
+    "type": "change",
+    "total": 14,
+    "added": 0,
+    "removed": 1,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FC6J4TA/A"
+    ]
   }
 ]
