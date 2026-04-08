@@ -144,5 +144,17 @@
     "removed_items": [
       "G1HF4TA/A"
     ]
+  },
+  {
+    "time": "2026-04-08T15:05:33.407638",
+    "type": "change",
+    "total": 9,
+    "added": 0,
+    "removed": 1,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "G1DH0TA/A"
+    ]
   }
 ]

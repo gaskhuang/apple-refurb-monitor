@@ -1,23 +1,5 @@
 {
   "products": {
-    "G1DH0TA/A": {
-      "title": "15 吋 MacBook Air Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU - 午夜色 (整修品)",
-      "refurb_price": 39590,
-      "refurb_display": "NT$39,590",
-      "original_price": 53900,
-      "savings": 14310,
-      "savings_pct": 26.5,
-      "model": "macbookair",
-      "ram": "16gb",
-      "storage": "1tb",
-      "color": "midnight",
-      "year": "2025",
-      "screen": "15inch",
-      "is_nano": false,
-      "price_source": "官方定價",
-      "part_number": "G1DH0TA/A",
-      "detail_url": "https://www.apple.com/tw/shop/product/g1dh0ta/a/15-%E5%90%8B-MacBook-Air-Apple-M4-%E6%99%B6%E7%89%87%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-CPU-%E8%88%87-10-%E6%A0%B8%E5%BF%83-GPU-%E5%8D%88%E5%A4%9C%E8%89%B2-(%E6%95%B4%E4%BF%AE%E5%93%81)"
-    },
     "FWUU3TA/A": {
       "title": "24 吋 iMac Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU、Gigabit 乙太網路 - 銀色 (整修品)",
       "refurb_price": 42390,
@@ -181,6 +163,6 @@
       "detail_url": "https://www.apple.com/tw/shop/product/fd2t4ta/a/24-%E5%90%8B-imac-apple-m4-%E6%99%B6%E7%89%87-%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-cpu-%E8%88%87-10-%E6%A0%B8%E5%BF%83-gpu-gigabit-%E4%B9%99%E5%A4%AA%E7%B6%B2%E8%B7%AF-%E8%97%8D%E8%89%B2-%E6%95%B4%E4%BF%AE%E5%93%81"
     }
   },
-  "last_check": "2026-04-08 13:10:19",
-  "last_change": "2026-04-08 13:10:19"
+  "last_check": "2026-04-08 15:05:33",
+  "last_change": "2026-04-08 15:05:33"
 }
