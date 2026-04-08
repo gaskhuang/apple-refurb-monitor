@@ -23,7 +23,12 @@ from collections import Counter
 
 REFURB_URL = "https://www.apple.com/tw/shop/refurbished/mac"
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
+    "X-Apple-Store-Front": "446-1,32",  # 台灣 Apple Store front ID
+}
+COOKIES = {
+    "geo": "TW",  # 強制台灣地區，避免 GitHub Actions 美國 IP 取得不完整庫存
 }
 
 # CI 環境偵測 — GitHub Actions 會設定 GITHUB_ACTIONS=true
@@ -42,33 +47,62 @@ REPORT_DIR = os.path.expanduser("~/reports") if not IS_CI else os.path.join(os.p
 TO_EMAIL = os.environ.get("TO_EMAIL", "gask.huang@zonetech.tw")
 
 # Apple 台灣官方原價對照表
+# key: (model, screen, ram, storage) — model 使用 Apple API 回傳的格式 (無連字符)
 ORIGINAL_PRICES = {
-    ("imac", "16gb", "256gb"): {"price": 49900, "note": "iMac M4 10核心 16GB/256GB"},
-    ("imac", "16gb", "512gb"): {"price": 56900, "note": "iMac M4 10核心 16GB/512GB"},
-    ("imac", "24gb", "256gb"): {"price": 56900, "note": "iMac M4 10核心 24GB/256GB"},
-    ("imac", "24gb", "512gb"): {"price": 63900, "note": "iMac M4 10核心 24GB/512GB"},
-    ("imac", "24gb", "1tb"):   {"price": 70900, "note": "iMac M4 10核心 24GB/1TB"},
-    ("imac", "32gb", "512gb"): {"price": 70900, "note": "iMac M4 10核心 32GB/512GB"},
-    ("imac", "32gb", "1tb"):   {"price": 77900, "note": "iMac M4 10核心 32GB/1TB"},
-    ("imac", "32gb", "2tb"):   {"price": 91900, "note": "iMac M4 10核心 32GB/2TB"},
-    ("macbook-pro", "16gb", "512gb"):  {"price": 54900, "note": "MacBook Pro M4 16GB/512GB"},
-    ("macbook-pro", "24gb", "512gb"):  {"price": 64900, "note": "MacBook Pro M4 Pro 24GB/512GB"},
-    ("macbook-pro", "24gb", "1tb"):    {"price": 74900, "note": "MacBook Pro M4 Pro 24GB/1TB"},
-    ("macbook-pro", "36gb", "512gb"):  {"price": 84900, "note": "MacBook Pro M4 Pro 36GB/512GB"},
-    ("macbook-pro", "48gb", "512gb"):  {"price": 109900, "note": "MacBook Pro M4 Max 48GB/512GB"},
-    ("macbook-pro", "48gb", "1tb"):    {"price": 119900, "note": "MacBook Pro M4 Max 48GB/1TB"},
-    ("macbook-air", "16gb", "256gb"):  {"price": 35900, "note": "MacBook Air M4 16GB/256GB"},
-    ("macbook-air", "16gb", "512gb"):  {"price": 41900, "note": "MacBook Air M4 16GB/512GB"},
-    ("macbook-air", "24gb", "512gb"):  {"price": 47900, "note": "MacBook Air M4 24GB/512GB"},
-    ("mac-mini", "16gb", "256gb"):  {"price": 18900, "note": "Mac mini M4 16GB/256GB"},
-    ("mac-mini", "16gb", "512gb"):  {"price": 24900, "note": "Mac mini M4 16GB/512GB"},
-    ("mac-mini", "24gb", "512gb"):  {"price": 34900, "note": "Mac mini M4 Pro 24GB/512GB"},
-    ("mac-mini", "24gb", "1tb"):    {"price": 44900, "note": "Mac mini M4 Pro 24GB/1TB"},
-    ("mac-mini", "48gb", "512gb"):  {"price": 54900, "note": "Mac mini M4 Pro 48GB/512GB"},
-    ("mac-studio", "32gb", "512gb"):   {"price": 63900, "note": "Mac Studio M4 Max 32GB/512GB"},
-    ("mac-studio", "64gb", "1tb"):     {"price": 94900, "note": "Mac Studio M4 Max 64GB/1TB"},
-    ("mac-studio", "128gb", "1tb"):    {"price": 129900, "note": "Mac Studio M4 Ultra 128GB/1TB"},
-    ("mac-studio", "192gb", "1tb"):    {"price": 189900, "note": "Mac Studio M4 Ultra 192GB/1TB"},
+    # iMac M4 (24 吋)
+    ("imac", "24inch", "16gb", "256gb"): {"price": 49900, "note": "iMac M4 10核心 16GB/256GB"},
+    ("imac", "24inch", "16gb", "512gb"): {"price": 56900, "note": "iMac M4 10核心 16GB/512GB"},
+    ("imac", "24inch", "24gb", "256gb"): {"price": 56900, "note": "iMac M4 10核心 24GB/256GB"},
+    ("imac", "24inch", "24gb", "512gb"): {"price": 63900, "note": "iMac M4 10核心 24GB/512GB"},
+    ("imac", "24inch", "24gb", "1tb"):   {"price": 70900, "note": "iMac M4 10核心 24GB/1TB"},
+    ("imac", "24inch", "32gb", "512gb"): {"price": 70900, "note": "iMac M4 10核心 32GB/512GB"},
+    ("imac", "24inch", "32gb", "1tb"):   {"price": 77900, "note": "iMac M4 10核心 32GB/1TB"},
+    ("imac", "24inch", "32gb", "2tb"):   {"price": 91900, "note": "iMac M4 10核心 32GB/2TB"},
+    # MacBook Air M4 (13 吋)
+    ("macbookair", "13inch", "16gb", "256gb"):  {"price": 35900, "note": "MacBook Air 13 M4 16GB/256GB"},
+    ("macbookair", "13inch", "16gb", "512gb"):  {"price": 41900, "note": "MacBook Air 13 M4 16GB/512GB"},
+    ("macbookair", "13inch", "24gb", "256gb"):  {"price": 41900, "note": "MacBook Air 13 M4 24GB/256GB"},
+    ("macbookair", "13inch", "24gb", "512gb"):  {"price": 47900, "note": "MacBook Air 13 M4 24GB/512GB"},
+    ("macbookair", "13inch", "32gb", "512gb"):  {"price": 53900, "note": "MacBook Air 13 M4 32GB/512GB"},
+    ("macbookair", "13inch", "32gb", "1tb"):    {"price": 59900, "note": "MacBook Air 13 M4 32GB/1TB"},
+    ("macbookair", "13inch", "32gb", "2tb"):    {"price": 71900, "note": "MacBook Air 13 M4 32GB/2TB"},
+    # MacBook Air M4 (15 吋)
+    ("macbookair", "15inch", "16gb", "256gb"):  {"price": 41900, "note": "MacBook Air 15 M4 16GB/256GB"},
+    ("macbookair", "15inch", "16gb", "512gb"):  {"price": 47900, "note": "MacBook Air 15 M4 16GB/512GB"},
+    ("macbookair", "15inch", "16gb", "1tb"):    {"price": 53900, "note": "MacBook Air 15 M4 16GB/1TB"},
+    ("macbookair", "15inch", "24gb", "256gb"):  {"price": 47900, "note": "MacBook Air 15 M4 24GB/256GB"},
+    ("macbookair", "15inch", "24gb", "512gb"):  {"price": 53900, "note": "MacBook Air 15 M4 24GB/512GB"},
+    ("macbookair", "15inch", "32gb", "512gb"):  {"price": 59900, "note": "MacBook Air 15 M4 32GB/512GB"},
+    ("macbookair", "15inch", "32gb", "1tb"):    {"price": 65900, "note": "MacBook Air 15 M4 32GB/1TB"},
+    ("macbookair", "15inch", "32gb", "2tb"):    {"price": 77900, "note": "MacBook Air 15 M4 32GB/2TB"},
+    # MacBook Pro M4 (14 吋)
+    ("macbookpro", "14inch", "16gb", "512gb"):  {"price": 54900, "note": "MacBook Pro 14 M4 16GB/512GB"},
+    ("macbookpro", "14inch", "16gb", "1tb"):    {"price": 60900, "note": "MacBook Pro 14 M4 16GB/1TB"},
+    ("macbookpro", "14inch", "24gb", "512gb"):  {"price": 64900, "note": "MacBook Pro 14 M4 Pro 24GB/512GB"},
+    ("macbookpro", "14inch", "24gb", "1tb"):    {"price": 74900, "note": "MacBook Pro 14 M4 Pro 24GB/1TB"},
+    ("macbookpro", "14inch", "48gb", "512gb"):  {"price": 109900, "note": "MacBook Pro 14 M4 Max 48GB/512GB"},
+    ("macbookpro", "14inch", "48gb", "1tb"):    {"price": 119900, "note": "MacBook Pro 14 M4 Max 48GB/1TB"},
+    # MacBook Pro M4 (16 吋)
+    ("macbookpro", "16inch", "24gb", "512gb"):  {"price": 84900, "note": "MacBook Pro 16 M4 Pro 24GB/512GB"},
+    ("macbookpro", "16inch", "36gb", "512gb"):  {"price": 104900, "note": "MacBook Pro 16 M4 Pro 36GB/512GB"},
+    ("macbookpro", "16inch", "48gb", "512gb"):  {"price": 119900, "note": "MacBook Pro 16 M4 Max 48GB/512GB"},
+    ("macbookpro", "16inch", "48gb", "1tb"):    {"price": 129900, "note": "MacBook Pro 16 M4 Max 48GB/1TB"},
+    # MacBook Pro M3 Pro (14 吋) — 舊款整修品
+    ("macbookpro", "14inch", "18gb", "512gb"):  {"price": 64900, "note": "MacBook Pro 14 M3 Pro 18GB/512GB"},
+    # Mac mini M4
+    ("macmini", "", "16gb", "256gb"):  {"price": 18900, "note": "Mac mini M4 16GB/256GB"},
+    ("macmini", "", "16gb", "512gb"):  {"price": 24900, "note": "Mac mini M4 16GB/512GB"},
+    ("macmini", "", "24gb", "512gb"):  {"price": 34900, "note": "Mac mini M4 Pro 24GB/512GB"},
+    ("macmini", "", "24gb", "1tb"):    {"price": 44900, "note": "Mac mini M4 Pro 24GB/1TB"},
+    ("macmini", "", "48gb", "512gb"):  {"price": 54900, "note": "Mac mini M4 Pro 48GB/512GB"},
+    # Mac Studio
+    ("macstudio", "", "32gb", "512gb"):   {"price": 63900, "note": "Mac Studio M4 Max 32GB/512GB"},
+    ("macstudio", "", "64gb", "1tb"):     {"price": 94900, "note": "Mac Studio M4 Max 64GB/1TB"},
+    ("macstudio", "", "96gb", "1tb"):     {"price": 119900, "note": "Mac Studio M4 Max 96GB/1TB"},
+    ("macstudio", "", "128gb", "1tb"):    {"price": 129900, "note": "Mac Studio M4 Ultra 128GB/1TB"},
+    ("macstudio", "", "192gb", "1tb"):    {"price": 189900, "note": "Mac Studio M4 Ultra 192GB/1TB"},
+    # Mac Studio M3 Ultra — 舊款整修品
+    ("macstudio", "", "192gb", "2tb"):    {"price": 219900, "note": "Mac Studio M3 Ultra 192GB/2TB"},
 }
 NANO_TEXTURE_PREMIUM = 7000
 
@@ -142,7 +176,7 @@ def _search_duckduckgo(title):
 
 def fetch_refurbished_products():
     """從 Apple 整修品頁面抓取所有 Mac 產品"""
-    r = requests.get(REFURB_URL, headers=HEADERS, timeout=30)
+    r = requests.get(REFURB_URL, headers=HEADERS, cookies=COOKIES, timeout=30)
     r.raise_for_status()
 
     matches = re.findall(
@@ -173,7 +207,7 @@ def fetch_refurbished_products():
         screen = filters.get("dimensionScreensize", "")
 
         is_nano = "奈米紋理" in title or "nano" in title.lower()
-        lookup_key = (model, ram, storage)
+        lookup_key = (model, screen, ram, storage)
         original_info = ORIGINAL_PRICES.get(lookup_key)
 
         if original_info:
@@ -218,7 +252,7 @@ def fetch_refurbished_products():
             "is_nano": is_nano,
             "price_source": price_source,
             "part_number": part_number,
-            "detail_url": f"https://www.apple.com{detail_url}" if detail_url else "",
+            "detail_url": f"https://www.apple.com{detail_url.split('?')[0]}" if detail_url else "",
         }
 
     return products
@@ -557,12 +591,14 @@ def main():
 
     changes = detect_changes(old_products, current_products)
 
-    state["products"] = current_products
-    state["last_check"] = now_str
     if changes["has_changes"] or is_first_run:
+        state["products"] = current_products
+        state["last_check"] = now_str
         state["last_change"] = now_str
-
-    save_state(state)
+        save_state(state)
+    else:
+        # 無變動時不更新 state 檔案，避免不必要的 git commit
+        pass
 
     if is_first_run:
         print(f"[{now.strftime('%H:%M:%S')}] 首次執行，記錄初始狀態 ({len(current_products)} 件商品)")
