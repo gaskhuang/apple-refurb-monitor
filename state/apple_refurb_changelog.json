@@ -64,5 +64,27 @@
       "G1GU3TA/A"
     ],
     "removed_items": []
+  },
+  {
+    "time": "2026-04-08T06:18:55.589099",
+    "type": "change",
+    "total": 21,
+    "added": 0,
+    "removed": 11,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "G1H22TA/A",
+      "FW1K3TA/A",
+      "FC6C4TA/A",
+      "FW0Y3TA/A",
+      "FW133TA/A",
+      "G1CD5TA/A",
+      "G1GU3TA/A",
+      "G1DG0TA/A",
+      "FC7C4TA/A",
+      "FW1M3TA/A",
+      "FC6L4TA/A"
+    ]
   }
 ]
