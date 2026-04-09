@@ -44,7 +44,7 @@ else:
 STATE_FILE = os.path.join(DATA_DIR, "apple_refurb_state.json")
 CHANGE_LOG_FILE = os.path.join(DATA_DIR, "apple_refurb_changelog.json")
 REPORT_DIR = os.path.expanduser("~/reports") if not IS_CI else os.path.join(os.path.dirname(os.path.abspath(__file__)), "reports")
-TO_EMAIL = os.environ.get("TO_EMAIL", "gask.huang@zonetech.tw")
+TO_EMAIL = os.environ.get("TO_EMAIL", "")
 
 # Apple 台灣官方原價對照表
 # key: (model, screen, ram, storage) — model 使用 Apple API 回傳的格式 (無連字符)
