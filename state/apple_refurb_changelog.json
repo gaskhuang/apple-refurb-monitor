@@ -156,5 +156,17 @@
     "removed_items": [
       "G1DH0TA/A"
     ]
+  },
+  {
+    "time": "2026-04-09T11:51:35.099090",
+    "type": "change",
+    "total": 8,
+    "added": 0,
+    "removed": 1,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FRX33TA/A"
+    ]
   }
 ]
