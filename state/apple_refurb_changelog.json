@@ -168,5 +168,17 @@
     "removed_items": [
       "FRX33TA/A"
     ]
+  },
+  {
+    "time": "2026-04-15T16:57:42.953424",
+    "type": "change",
+    "total": 7,
+    "added": 0,
+    "removed": 1,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FCR24TA/A"
+    ]
   }
 ]
