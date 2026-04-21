@@ -231,5 +231,28 @@
       "FW0X3TA/A"
     ],
     "removed_items": []
+  },
+  {
+    "time": "2026-04-21T07:27:34.680012",
+    "type": "change",
+    "total": 22,
+    "added": 0,
+    "removed": 12,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FC6T4TA/A",
+      "G1KZNTA/A",
+      "G1CF6TA/A",
+      "FW0X3TA/A",
+      "G1JV9TA/A",
+      "G1CF4TA/A",
+      "G1JV3TA/A",
+      "FC6A4TA/A",
+      "FW103TA/A",
+      "FW133TA/A",
+      "FC6V4TA/A",
+      "FC6C4TA/A"
+    ]
   }
 ]
