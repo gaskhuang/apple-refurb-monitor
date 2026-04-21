@@ -192,5 +192,44 @@
     "removed_items": [
       "FD2T4TA/A"
     ]
+  },
+  {
+    "time": "2026-04-21T05:22:34.136458",
+    "type": "change",
+    "total": 34,
+    "added": 28,
+    "removed": 0,
+    "price_changed": 0,
+    "added_items": [
+      "FC6A4TA/A",
+      "FC6C4TA/A",
+      "G1H80TA/A",
+      "FCYT4TA/A",
+      "G1JV4TA/A",
+      "G1JX1TA/A",
+      "G1CFATA/A",
+      "FW103TA/A",
+      "FC6U4TA/A",
+      "G1CF4TA/A",
+      "G1CF9TA/A",
+      "FC6T4TA/A",
+      "G1JV7TA/A",
+      "G1JV9TA/A",
+      "FCX44TA/A",
+      "G1CF6TA/A",
+      "G1CW0TA/A",
+      "FW123TA/A",
+      "FC6V4TA/A",
+      "FW0Y3TA/A",
+      "G1KZNTA/A",
+      "FU9D3TA/A",
+      "G1JV3TA/A",
+      "FU9E3TA/A",
+      "FW133TA/A",
+      "FW0W3TA/A",
+      "G1CG1TA/A",
+      "FW0X3TA/A"
+    ],
+    "removed_items": []
   }
 ]
