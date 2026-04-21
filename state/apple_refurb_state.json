@@ -36,42 +36,6 @@
       "part_number": "FU9E3TA/A",
       "detail_url": "https://www.apple.com/tw/shop/product/fu9e3ta/a/Mac-mini-Apple-M4-%E6%99%B6%E7%89%87%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-CPU-%E8%88%87-10-%E6%A0%B8%E5%BF%83-GPU%E4%B9%99%E5%A4%AA%E7%B6%B2%E8%B7%AF-%E6%95%B4%E4%BF%AE%E5%93%81"
     },
-    "G1CF9TA/A": {
-      "title": "Mac mini Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU、乙太網路 (整修品)",
-      "refurb_price": 22890,
-      "refurb_display": "NT$22,890",
-      "original_price": 42390,
-      "savings": 19500,
-      "savings_pct": 46.0,
-      "model": "macmini",
-      "ram": "24gb",
-      "storage": "256gb",
-      "color": "silver",
-      "year": "2024",
-      "screen": "",
-      "is_nano": false,
-      "price_source": "網路查詢",
-      "part_number": "G1CF9TA/A",
-      "detail_url": "https://www.apple.com/tw/shop/product/g1cf9ta/a/Mac-mini-Apple-M4-%E6%99%B6%E7%89%87%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-CPU-%E8%88%87-10-%E6%A0%B8%E5%BF%83-GPU%E4%B9%99%E5%A4%AA%E7%B6%B2%E8%B7%AF-%E6%95%B4%E4%BF%AE%E5%93%81"
-    },
-    "FCYT4TA/A": {
-      "title": "Mac mini Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU、乙太網路 (整修品)",
-      "refurb_price": 28790,
-      "refurb_display": "NT$28,790",
-      "original_price": 34900,
-      "savings": 6110,
-      "savings_pct": 17.5,
-      "model": "macmini",
-      "ram": "24gb",
-      "storage": "512gb",
-      "color": "silver",
-      "year": "2024",
-      "screen": "",
-      "is_nano": false,
-      "price_source": "官方定價",
-      "part_number": "FCYT4TA/A",
-      "detail_url": "https://www.apple.com/tw/shop/product/fcyt4ta/a/Mac-mini-Apple-M4-%E6%99%B6%E7%89%87%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-CPU-%E8%88%87-10-%E6%A0%B8%E5%BF%83-GPU%E4%B9%99%E5%A4%AA%E7%B6%B2%E8%B7%AF-%E6%95%B4%E4%BF%AE%E5%93%81"
-    },
     "FWUU3TA/A": {
       "title": "24 吋 iMac Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU、Gigabit 乙太網路 - 銀色 (整修品)",
       "refurb_price": 42390,
@@ -181,6 +145,6 @@
       "detail_url": "https://www.apple.com/tw/shop/product/fd2q4ta/a/24-%E5%90%8B-imac-apple-m4-%E6%99%B6%E7%89%87-%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-cpu-%E8%88%87-10-%E6%A0%B8%E5%BF%83-gpu-gigabit-%E4%B9%99%E5%A4%AA%E7%B6%B2%E8%B7%AF-%E7%B6%A0%E8%89%B2-%E6%95%B4%E4%BF%AE%E5%93%81"
     }
   },
-  "last_check": "2026-04-21 11:01:59",
-  "last_change": "2026-04-21 11:01:59"
+  "last_check": "2026-04-21 13:13:52",
+  "last_change": "2026-04-21 13:13:52"
 }

@@ -288,5 +288,18 @@
       "G1CW0TA/A",
       "FCX44TA/A"
     ]
+  },
+  {
+    "time": "2026-04-21T13:13:52.338863",
+    "type": "change",
+    "total": 8,
+    "added": 0,
+    "removed": 2,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FCYT4TA/A",
+      "G1CF9TA/A"
+    ]
   }
 ]
