@@ -301,5 +301,18 @@
       "FCYT4TA/A",
       "G1CF9TA/A"
     ]
+  },
+  {
+    "time": "2026-04-21T15:08:09.122778",
+    "type": "change",
+    "total": 6,
+    "added": 0,
+    "removed": 2,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FD2Q4TA/A",
+      "FU9E3TA/A"
+    ]
   }
 ]
