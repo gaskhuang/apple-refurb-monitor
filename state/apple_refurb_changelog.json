@@ -254,5 +254,25 @@
       "FC6V4TA/A",
       "FC6C4TA/A"
     ]
+  },
+  {
+    "time": "2026-04-21T09:20:32.651724",
+    "type": "change",
+    "total": 13,
+    "added": 0,
+    "removed": 9,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FW0Y3TA/A",
+      "FC6U4TA/A",
+      "FW123TA/A",
+      "G1JV4TA/A",
+      "G1JV7TA/A",
+      "G1JX1TA/A",
+      "G1H80TA/A",
+      "G1CG1TA/A",
+      "G1CFATA/A"
+    ]
   }
 ]
