@@ -314,5 +314,17 @@
       "FD2Q4TA/A",
       "FU9E3TA/A"
     ]
+  },
+  {
+    "time": "2026-04-22T05:20:55.717210",
+    "type": "change",
+    "total": 5,
+    "added": 0,
+    "removed": 1,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FU9D3TA/A"
+    ]
   }
 ]

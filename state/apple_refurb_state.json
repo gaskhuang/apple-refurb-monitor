@@ -1,23 +1,5 @@
 {
   "products": {
-    "FU9D3TA/A": {
-      "title": "Mac mini Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU、乙太網路 (整修品)",
-      "refurb_price": 16890,
-      "refurb_display": "NT$16,890",
-      "original_price": 18900,
-      "savings": 2010,
-      "savings_pct": 10.6,
-      "model": "macmini",
-      "ram": "16gb",
-      "storage": "256gb",
-      "color": "silver",
-      "year": "2024",
-      "screen": "",
-      "is_nano": false,
-      "price_source": "官方定價",
-      "part_number": "FU9D3TA/A",
-      "detail_url": "https://www.apple.com/tw/shop/product/fu9d3ta/a/Mac-mini-Apple-M4-%E6%99%B6%E7%89%87%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-CPU-%E8%88%87-10-%E6%A0%B8%E5%BF%83-GPU%E4%B9%99%E5%A4%AA%E7%B6%B2%E8%B7%AF-%E6%95%B4%E4%BF%AE%E5%93%81"
-    },
     "FWUU3TA/A": {
       "title": "24 吋 iMac Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU、Gigabit 乙太網路 - 銀色 (整修品)",
       "refurb_price": 42390,
@@ -109,6 +91,6 @@
       "detail_url": "https://www.apple.com/tw/shop/product/fwv33ta/a/24-%E5%90%8B-imac-apple-m4-%E6%99%B6%E7%89%87-%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-cpu-%E8%88%87-10-%E6%A0%B8%E5%BF%83-gpu-gigabit-%E4%B9%99%E5%A4%AA%E7%B6%B2%E8%B7%AF-%E8%97%8D%E8%89%B2-%E6%95%B4%E4%BF%AE%E5%93%81"
     }
   },
-  "last_check": "2026-04-21 15:08:09",
-  "last_change": "2026-04-21 15:08:09"
+  "last_check": "2026-04-22 05:20:55",
+  "last_change": "2026-04-22 05:20:55"
 }
