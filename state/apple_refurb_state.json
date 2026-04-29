@@ -18,24 +18,6 @@
       "part_number": "FWUU3TA/A",
       "detail_url": "https://www.apple.com/tw/shop/product/fwuu3ta/a/24-%E5%90%8B-imac-apple-m4-%E6%99%B6%E7%89%87-%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-cpu-%E8%88%87-10-%E6%A0%B8%E5%BF%83-gpu-gigabit-%E4%B9%99%E5%A4%AA%E7%B6%B2%E8%B7%AF-%E9%8A%80%E8%89%B2-%E6%95%B4%E4%BF%AE%E5%93%81"
     },
-    "FWUY3TA/A": {
-      "title": "24 吋 iMac Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU、Gigabit 乙太網路 - 綠色 (整修品)",
-      "refurb_price": 42390,
-      "refurb_display": "NT$42,390",
-      "original_price": 49900,
-      "savings": 7510,
-      "savings_pct": 15.1,
-      "model": "imac",
-      "ram": "16gb",
-      "storage": "256gb",
-      "color": "green",
-      "year": "2024",
-      "screen": "24inch",
-      "is_nano": false,
-      "price_source": "官方定價",
-      "part_number": "FWUY3TA/A",
-      "detail_url": "https://www.apple.com/tw/shop/product/fwuy3ta/a/24-%E5%90%8B-imac-apple-m4-%E6%99%B6%E7%89%87-%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-cpu-%E8%88%87-10-%E6%A0%B8%E5%BF%83-gpu-gigabit-%E4%B9%99%E5%A4%AA%E7%B6%B2%E8%B7%AF-%E7%B6%A0%E8%89%B2-%E6%95%B4%E4%BF%AE%E5%93%81"
-    },
     "FWV13TA/A": {
       "title": "24 吋 iMac Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU、Gigabit 乙太網路 - 藍色 (整修品)",
       "refurb_price": 42390,
@@ -91,6 +73,6 @@
       "detail_url": "https://www.apple.com/tw/shop/product/fwv33ta/a/24-%E5%90%8B-imac-apple-m4-%E6%99%B6%E7%89%87-%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-cpu-%E8%88%87-10-%E6%A0%B8%E5%BF%83-gpu-gigabit-%E4%B9%99%E5%A4%AA%E7%B6%B2%E8%B7%AF-%E8%97%8D%E8%89%B2-%E6%95%B4%E4%BF%AE%E5%93%81"
     }
   },
-  "last_check": "2026-04-28 08:15:04",
-  "last_change": "2026-04-28 08:15:04"
+  "last_check": "2026-04-29 15:08:15",
+  "last_change": "2026-04-29 15:08:15"
 }

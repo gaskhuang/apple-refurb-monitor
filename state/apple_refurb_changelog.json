@@ -360,5 +360,17 @@
       "FU9D3TA/A",
       "FCX44TA/A"
     ]
+  },
+  {
+    "time": "2026-04-29T15:08:15.225716",
+    "type": "change",
+    "total": 4,
+    "added": 0,
+    "removed": 1,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FWUY3TA/A"
+    ]
   }
 ]
