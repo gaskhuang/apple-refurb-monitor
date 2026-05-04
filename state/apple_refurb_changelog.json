@@ -411,5 +411,17 @@
       "G1CW0TA/A",
       "G1CD9TA/A"
     ]
+  },
+  {
+    "time": "2026-05-04T17:41:42.083053",
+    "type": "change",
+    "total": 14,
+    "added": 0,
+    "removed": 1,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "G1FP4TA/A"
+    ]
   }
 ]
