@@ -397,5 +397,19 @@
       "FX2U3TA/A"
     ],
     "removed_items": []
+  },
+  {
+    "time": "2026-05-04T13:46:35.477208",
+    "type": "change",
+    "total": 15,
+    "added": 0,
+    "removed": 3,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FU963TA/A",
+      "G1CW0TA/A",
+      "G1CD9TA/A"
+    ]
   }
 ]
