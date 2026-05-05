@@ -446,5 +446,17 @@
       "FCR24TA/A"
     ],
     "removed_items": []
+  },
+  {
+    "time": "2026-05-05T10:29:42.752612",
+    "type": "change",
+    "total": 25,
+    "added": 0,
+    "removed": 1,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FWUC3TA/A"
+    ]
   }
 ]

@@ -1,30 +1,12 @@
 {
   "products": {
-    "FWUC3TA/A": {
-      "title": "24 吋 iMac Apple M4 晶片配備 8 核心 CPU 與 8 核心 GPU - 銀色 (整修品)",
-      "refurb_price": 36490,
-      "refurb_display": "NT$36,490",
-      "original_price": 49900,
-      "savings": 13410,
-      "savings_pct": 26.9,
-      "model": "imac",
-      "ram": "16gb",
-      "storage": "256gb",
-      "color": "silver",
-      "year": "2024",
-      "screen": "24inch",
-      "is_nano": false,
-      "price_source": "官方定價",
-      "part_number": "FWUC3TA/A",
-      "detail_url": "https://www.apple.com/tw/shop/product/fwuc3ta/a/24-%E5%90%8B-iMac-Apple-M4-%E6%99%B6%E7%89%87-%E9%85%8D%E5%82%99-8-%E6%A0%B8%E5%BF%83-CPU-%E8%88%87-8-%E6%A0%B8%E5%BF%83-GPU-%E9%8A%80%E8%89%B2-%E6%95%B4%E4%BF%AE%E5%93%81"
-    },
     "FYJG3TA/A": {
       "title": "Apple Studio Display (整修品)，標準玻璃，可調整斜度的支架",
       "refurb_price": 38990,
       "refurb_display": "NT$38,990",
-      "original_price": 52900,
-      "savings": 13910,
-      "savings_pct": 26.3,
+      "original_price": 42390,
+      "savings": 3400,
+      "savings_pct": 8.0,
       "model": "display",
       "ram": "",
       "storage": "",
@@ -94,9 +76,9 @@
       "title": "Apple Studio Display (整修品)，奈米紋理玻璃，VESA 吊架連接器",
       "refurb_price": 46690,
       "refurb_display": "NT$46,690",
-      "original_price": 52900,
-      "savings": 6210,
-      "savings_pct": 11.7,
+      "original_price": 42390,
+      "savings": -4300,
+      "savings_pct": -10.1,
       "model": "display",
       "ram": "",
       "storage": "",
@@ -202,9 +184,9 @@
       "title": "Apple Studio Display (整修品)，奈米紋理玻璃，可調整斜度與高度的支架",
       "refurb_price": 56890,
       "refurb_display": "NT$56,890",
-      "original_price": 52900,
-      "savings": -3990,
-      "savings_pct": -7.5,
+      "original_price": 42390,
+      "savings": -14500,
+      "savings_pct": -34.2,
       "model": "display",
       "ram": "",
       "storage": "",
@@ -469,6 +451,6 @@
       "detail_url": "https://www.apple.com/tw/shop/product/g1fsnta/a/16-%E5%90%8B-MacBook-Pro-Apple-M4-Max-%E6%99%B6%E7%89%87%E9%85%8D%E5%82%99-16-%E6%A0%B8%E5%BF%83-CPU-%E8%88%87-40-%E6%A0%B8%E5%BF%83-GPU%E5%A5%88%E7%B1%B3%E7%B4%8B%E7%90%86%E9%A1%AF%E7%A4%BA%E5%99%A8-%E9%8A%80%E8%89%B2-%E6%95%B4%E4%BF%AE%E5%93%81"
     }
   },
-  "last_check": "2026-05-05 05:37:43",
-  "last_change": "2026-05-05 05:37:43"
+  "last_check": "2026-05-05 10:29:42",
+  "last_change": "2026-05-05 10:29:42"
 }
