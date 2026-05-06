@@ -162,24 +162,6 @@
       "part_number": "FCR24TA/A",
       "detail_url": "https://www.apple.com/tw/shop/product/fcr24ta/a/24-%E5%90%8B-imac-apple-m4-%E6%99%B6%E7%89%87-%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-cpu-%E8%88%87-10-%E6%A0%B8%E5%BF%83-gpu-gigabit-%E4%B9%99%E5%A4%AA%E7%B6%B2%E8%B7%AF-%E9%8A%80%E8%89%B2-%E6%95%B4%E4%BF%AE%E5%93%81"
     },
-    "FYJJ3TA/A": {
-      "title": "Apple Studio Display (整修品)，奈米紋理玻璃，可調整斜度與高度的支架",
-      "refurb_price": 56890,
-      "refurb_display": "NT$56,890",
-      "original_price": 42390,
-      "savings": -14500,
-      "savings_pct": -34.2,
-      "model": "display",
-      "ram": "",
-      "storage": "",
-      "color": "",
-      "year": "2022",
-      "screen": "27inch",
-      "is_nano": true,
-      "price_source": "網路查詢",
-      "part_number": "FYJJ3TA/A",
-      "detail_url": "https://www.apple.com/tw/shop/product/fyjj3ta/a/Apple-Studio-Display-%E6%95%B4%E4%BF%AE%E5%93%81%E5%A5%88%E7%B1%B3%E7%B4%8B%E7%90%86%E7%8E%BB%E7%92%83%E5%8F%AF%E8%AA%BF%E6%95%B4%E6%96%9C%E5%BA%A6%E8%88%87%E9%AB%98%E5%BA%A6%E7%9A%84%E6%94%AF%E6%9E%B6"
-    },
     "G1K20TA/A": {
       "title": "24 吋 iMac Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU、Gigabit 乙太網路 - 黃色 (整修品)",
       "refurb_price": 59990,
@@ -346,9 +328,9 @@
       "title": "16 吋 MacBook Pro Apple M4 Max 晶片配備 14 核心 CPU 與 32 核心 GPU - 銀色 (整修品)",
       "refurb_price": 96290,
       "refurb_display": "NT$96,290",
-      "original_price": 42390,
-      "savings": -53900,
-      "savings_pct": -127.2,
+      "original_price": 48390,
+      "savings": -47900,
+      "savings_pct": -99.0,
       "model": "macbookpro",
       "ram": "36gb",
       "storage": "1tb",
@@ -364,9 +346,9 @@
       "title": "16 吋 MacBook Pro Apple M4 Max 晶片配備 14 核心 CPU 與 32 核心 GPU - 太空黑色 (整修品)",
       "refurb_price": 96290,
       "refurb_display": "NT$96,290",
-      "original_price": 42390,
-      "savings": -53900,
-      "savings_pct": -127.2,
+      "original_price": 48390,
+      "savings": -47900,
+      "savings_pct": -99.0,
       "model": "macbookpro",
       "ram": "36gb",
       "storage": "1tb",
@@ -418,9 +400,9 @@
       "title": "16 吋 MacBook Pro Apple M4 Max 晶片配備 16 核心 CPU 與 40 核心 GPU、奈米紋理顯示器 - 銀色 (整修品)",
       "refurb_price": 210990,
       "refurb_display": "NT$210,990",
-      "original_price": 48390,
-      "savings": -162600,
-      "savings_pct": -336.0,
+      "original_price": 42390,
+      "savings": -168600,
+      "savings_pct": -397.7,
       "model": "macbookpro",
       "ram": "128gb",
       "storage": "8tb",
@@ -433,6 +415,6 @@
       "detail_url": "https://www.apple.com/tw/shop/product/g1fsnta/a/16-%E5%90%8B-MacBook-Pro-Apple-M4-Max-%E6%99%B6%E7%89%87%E9%85%8D%E5%82%99-16-%E6%A0%B8%E5%BF%83-CPU-%E8%88%87-40-%E6%A0%B8%E5%BF%83-GPU%E5%A5%88%E7%B1%B3%E7%B4%8B%E7%90%86%E9%A1%AF%E7%A4%BA%E5%99%A8-%E9%8A%80%E8%89%B2-%E6%95%B4%E4%BF%AE%E5%93%81"
     }
   },
-  "last_check": "2026-05-05 15:49:35",
-  "last_change": "2026-05-05 15:49:35"
+  "last_check": "2026-05-06 05:52:31",
+  "last_change": "2026-05-06 05:52:31"
 }

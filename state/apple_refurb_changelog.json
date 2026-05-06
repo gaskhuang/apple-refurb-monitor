@@ -470,5 +470,17 @@
     "removed_items": [
       "FWV53TA/A"
     ]
+  },
+  {
+    "time": "2026-05-06T05:52:31.986455",
+    "type": "change",
+    "total": 23,
+    "added": 0,
+    "removed": 1,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FYJJ3TA/A"
+    ]
   }
 ]
