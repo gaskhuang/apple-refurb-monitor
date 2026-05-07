@@ -494,5 +494,19 @@
       "G1K15TA/A"
     ],
     "removed_items": []
+  },
+  {
+    "time": "2026-05-07T11:05:43.474857",
+    "type": "change",
+    "total": 21,
+    "added": 0,
+    "removed": 3,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FYJG3TA/A",
+      "FX313TA/A",
+      "FX2W3TA/A"
+    ]
   }
 ]

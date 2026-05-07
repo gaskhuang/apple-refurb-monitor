@@ -1,23 +1,5 @@
 {
   "products": {
-    "FYJG3TA/A": {
-      "title": "Apple Studio Display (整修品)，標準玻璃，可調整斜度的支架",
-      "refurb_price": 38990,
-      "refurb_display": "NT$38,990",
-      "original_price": 42390,
-      "savings": 3400,
-      "savings_pct": 8.0,
-      "model": "display",
-      "ram": "",
-      "storage": "",
-      "color": "",
-      "year": "2022",
-      "screen": "27inch",
-      "is_nano": false,
-      "price_source": "網路查詢",
-      "part_number": "FYJG3TA/A",
-      "detail_url": "https://www.apple.com/tw/shop/product/fyjg3ta/a/Apple-Studio-Display-%E6%95%B4%E4%BF%AE%E5%93%81%E6%A8%99%E6%BA%96%E7%8E%BB%E7%92%83%E5%8F%AF%E8%AA%BF%E6%95%B4%E6%96%9C%E5%BA%A6%E7%9A%84%E6%94%AF%E6%9E%B6"
-    },
     "FWUU3TA/A": {
       "title": "24 吋 iMac Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU、Gigabit 乙太網路 - 銀色 (整修品)",
       "refurb_price": 42390,
@@ -76,9 +58,9 @@
       "title": "Apple Studio Display (整修品)，奈米紋理玻璃，VESA 吊架連接器",
       "refurb_price": 46690,
       "refurb_display": "NT$46,690",
-      "original_price": 42390,
-      "savings": -4300,
-      "savings_pct": -10.1,
+      "original_price": 62900,
+      "savings": 16210,
+      "savings_pct": 25.8,
       "model": "display",
       "ram": "",
       "storage": "",
@@ -378,49 +360,13 @@
       "part_number": "FX303TA/A",
       "detail_url": "https://www.apple.com/tw/shop/product/fx303ta/a/16-%E5%90%8B-MacBook-Pro-Apple-M4-Max-%E6%99%B6%E7%89%87%E9%85%8D%E5%82%99-14-%E6%A0%B8%E5%BF%83-CPU-%E8%88%87-32-%E6%A0%B8%E5%BF%83-GPU-%E5%A4%AA%E7%A9%BA%E9%BB%91%E8%89%B2-%E6%95%B4%E4%BF%AE%E5%93%81"
     },
-    "FX2W3TA/A": {
-      "title": "16 吋 MacBook Pro Apple M4 Max 晶片配備 16 核心 CPU 與 40 核心 GPU - 銀色 (整修品)",
-      "refurb_price": 111290,
-      "refurb_display": "NT$111,290",
-      "original_price": 129900,
-      "savings": 18610,
-      "savings_pct": 14.3,
-      "model": "macbookpro",
-      "ram": "48gb",
-      "storage": "1tb",
-      "color": "silver",
-      "year": "2024",
-      "screen": "16inch",
-      "is_nano": false,
-      "price_source": "官方定價",
-      "part_number": "FX2W3TA/A",
-      "detail_url": "https://www.apple.com/tw/shop/product/fx2w3ta/a/16-%E5%90%8B-MacBook-Pro-Apple-M4-Max-%E6%99%B6%E7%89%87%E9%85%8D%E5%82%99-16-%E6%A0%B8%E5%BF%83-CPU-%E8%88%87-40-%E6%A0%B8%E5%BF%83-GPU-%E9%8A%80%E8%89%B2-%E6%95%B4%E4%BF%AE%E5%93%81"
-    },
-    "FX313TA/A": {
-      "title": "16 吋 MacBook Pro Apple M4 Max 晶片配備 16 核心 CPU 與 40 核心 GPU - 太空黑色 (整修品)",
-      "refurb_price": 111290,
-      "refurb_display": "NT$111,290",
-      "original_price": 129900,
-      "savings": 18610,
-      "savings_pct": 14.3,
-      "model": "macbookpro",
-      "ram": "48gb",
-      "storage": "1tb",
-      "color": "spaceblack",
-      "year": "2024",
-      "screen": "16inch",
-      "is_nano": false,
-      "price_source": "官方定價",
-      "part_number": "FX313TA/A",
-      "detail_url": "https://www.apple.com/tw/shop/product/fx313ta/a/16-%E5%90%8B-MacBook-Pro-Apple-M4-Max-%E6%99%B6%E7%89%87%E9%85%8D%E5%82%99-16-%E6%A0%B8%E5%BF%83-CPU-%E8%88%87-40-%E6%A0%B8%E5%BF%83-GPU-%E5%A4%AA%E7%A9%BA%E9%BB%91%E8%89%B2-%E6%95%B4%E4%BF%AE%E5%93%81"
-    },
     "G1FSNTA/A": {
       "title": "16 吋 MacBook Pro Apple M4 Max 晶片配備 16 核心 CPU 與 40 核心 GPU、奈米紋理顯示器 - 銀色 (整修品)",
       "refurb_price": 210990,
       "refurb_display": "NT$210,990",
-      "original_price": 48390,
-      "savings": -162600,
-      "savings_pct": -336.0,
+      "original_price": 42390,
+      "savings": -168600,
+      "savings_pct": -397.7,
       "model": "macbookpro",
       "ram": "128gb",
       "storage": "8tb",
@@ -433,6 +379,6 @@
       "detail_url": "https://www.apple.com/tw/shop/product/g1fsnta/a/16-%E5%90%8B-MacBook-Pro-Apple-M4-Max-%E6%99%B6%E7%89%87%E9%85%8D%E5%82%99-16-%E6%A0%B8%E5%BF%83-CPU-%E8%88%87-40-%E6%A0%B8%E5%BF%83-GPU%E5%A5%88%E7%B1%B3%E7%B4%8B%E7%90%86%E9%A1%AF%E7%A4%BA%E5%99%A8-%E9%8A%80%E8%89%B2-%E6%95%B4%E4%BF%AE%E5%93%81"
     }
   },
-  "last_check": "2026-05-06 11:01:35",
-  "last_change": "2026-05-06 11:01:35"
+  "last_check": "2026-05-07 11:05:43",
+  "last_change": "2026-05-07 11:05:43"
 }
