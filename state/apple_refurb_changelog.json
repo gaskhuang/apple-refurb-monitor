@@ -508,5 +508,17 @@
       "FX313TA/A",
       "FX2W3TA/A"
     ]
+  },
+  {
+    "time": "2026-05-07T13:53:40.092560",
+    "type": "change",
+    "total": 20,
+    "added": 0,
+    "removed": 1,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FCR24TA/A"
+    ]
   }
 ]
