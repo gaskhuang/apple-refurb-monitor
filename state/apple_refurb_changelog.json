@@ -544,5 +544,17 @@
     "removed_items": [
       "G1FQ7TA/A"
     ]
+  },
+  {
+    "time": "2026-05-11T13:43:56.185978",
+    "type": "change",
+    "total": 17,
+    "added": 0,
+    "removed": 1,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FX2T3TA/A"
+    ]
   }
 ]
