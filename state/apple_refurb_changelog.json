@@ -594,5 +594,17 @@
       "G1CF3TA/A",
       "G1KZQTA/A"
     ]
+  },
+  {
+    "time": "2026-05-12T09:32:11.760237",
+    "type": "change",
+    "total": 16,
+    "added": 0,
+    "removed": 1,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "G1K15TA/A"
+    ]
   }
 ]
