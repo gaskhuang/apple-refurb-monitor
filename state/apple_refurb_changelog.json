@@ -618,5 +618,17 @@
     "removed_items": [
       "G1K20TA/A"
     ]
+  },
+  {
+    "time": "2026-05-14T09:29:45.394281",
+    "type": "change",
+    "total": 14,
+    "added": 0,
+    "removed": 1,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FX2Y3TA/A"
+    ]
   }
 ]
