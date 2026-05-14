@@ -606,5 +606,17 @@
     "removed_items": [
       "G1K15TA/A"
     ]
+  },
+  {
+    "time": "2026-05-14T06:19:50.139854",
+    "type": "change",
+    "total": 15,
+    "added": 0,
+    "removed": 1,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "G1K20TA/A"
+    ]
   }
 ]
