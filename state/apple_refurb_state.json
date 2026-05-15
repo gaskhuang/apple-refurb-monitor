@@ -36,24 +36,6 @@
       "part_number": "FWV13TA/A",
       "detail_url": "https://www.apple.com/tw/shop/product/fwv13ta/a/24-%E5%90%8B-imac-apple-m4-%E6%99%B6%E7%89%87-%E9%85%8D%E5%82%99-10-%E6%A0%B8%E5%BF%83-cpu-%E8%88%87-10-%E6%A0%B8%E5%BF%83-gpu-gigabit-%E4%B9%99%E5%A4%AA%E7%B6%B2%E8%B7%AF-%E8%97%8D%E8%89%B2-%E6%95%B4%E4%BF%AE%E5%93%81"
     },
-    "FYJL3TA/A": {
-      "title": "Apple Studio Display (整修品)，奈米紋理玻璃，VESA 吊架連接器",
-      "refurb_price": 46690,
-      "refurb_display": "NT$46,690",
-      "original_price": 48390,
-      "savings": 1700,
-      "savings_pct": 3.5,
-      "model": "display",
-      "ram": "",
-      "storage": "",
-      "color": "",
-      "year": "2022",
-      "screen": "27inch",
-      "is_nano": true,
-      "price_source": "網路查詢",
-      "part_number": "FYJL3TA/A",
-      "detail_url": "https://www.apple.com/tw/shop/product/fyjl3ta/a/Apple-Studio-Display-%E6%95%B4%E4%BF%AE%E5%93%81%E5%A5%88%E7%B1%B3%E7%B4%8B%E7%90%86%E7%8E%BB%E7%92%83VESA-%E5%90%8A%E6%9E%B6%E9%80%A3%E6%8E%A5%E5%99%A8"
-    },
     "FWUV3TA/A": {
       "title": "24 吋 iMac Apple M4 晶片配備 10 核心 CPU 與 10 核心 GPU、Gigabit 乙太網路 - 銀色 (整修品)",
       "refurb_price": 48390,
@@ -253,6 +235,6 @@
       "detail_url": "https://www.apple.com/tw/shop/product/g1fsnta/a/16-%E5%90%8B-MacBook-Pro-Apple-M4-Max-%E6%99%B6%E7%89%87%E9%85%8D%E5%82%99-16-%E6%A0%B8%E5%BF%83-CPU-%E8%88%87-40-%E6%A0%B8%E5%BF%83-GPU%E5%A5%88%E7%B1%B3%E7%B4%8B%E7%90%86%E9%A1%AF%E7%A4%BA%E5%99%A8-%E9%8A%80%E8%89%B2-%E6%95%B4%E4%BF%AE%E5%93%81"
     }
   },
-  "last_check": "2026-05-14 09:29:45",
-  "last_change": "2026-05-14 09:29:45"
+  "last_check": "2026-05-15 02:40:10",
+  "last_change": "2026-05-15 02:40:10"
 }
