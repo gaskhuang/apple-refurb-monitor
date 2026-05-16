@@ -642,5 +642,17 @@
     "removed_items": [
       "FYJL3TA/A"
     ]
+  },
+  {
+    "time": "2026-05-16T14:51:48.965551",
+    "type": "change",
+    "total": 12,
+    "added": 0,
+    "removed": 1,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FX2U3TA/A"
+    ]
   }
 ]
