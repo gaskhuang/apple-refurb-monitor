@@ -666,5 +666,17 @@
     "removed_items": [
       "FX2X3TA/A"
     ]
+  },
+  {
+    "time": "2026-05-17T16:52:07.232935",
+    "type": "change",
+    "total": 10,
+    "added": 0,
+    "removed": 1,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FX303TA/A"
+    ]
   }
 ]
