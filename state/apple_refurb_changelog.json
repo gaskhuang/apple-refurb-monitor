@@ -731,5 +731,31 @@
       "G1KL0TA/A"
     ],
     "removed_items": []
+  },
+  {
+    "time": "2026-05-19T08:24:04.112873",
+    "type": "change",
+    "total": 13,
+    "added": 0,
+    "removed": 15,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FDE64TA/A",
+      "FLXW3TA/A",
+      "G1KH3TA/A",
+      "G15T3TA/A",
+      "FGN63TA/A",
+      "FDE44TA/A",
+      "G1KK2TA/A",
+      "G1KK3TA/A",
+      "G1KH2TA/A",
+      "G1CD7TA/A",
+      "G1CEPTA/A",
+      "FDE34TA/A",
+      "G1KL0TA/A",
+      "FU963TA/A",
+      "G1KH0TA/A"
+    ]
   }
 ]
