@@ -757,5 +757,18 @@
       "FU963TA/A",
       "G1KH0TA/A"
     ]
+  },
+  {
+    "time": "2026-05-19T11:57:42.791082",
+    "type": "change",
+    "total": 11,
+    "added": 0,
+    "removed": 2,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FX2H3TA/A",
+      "G1KN6TA/A"
+    ]
   }
 ]
