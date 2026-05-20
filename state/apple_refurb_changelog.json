@@ -783,5 +783,17 @@
       "FX2V3TA/A",
       "FX2K3TA/A"
     ]
+  },
+  {
+    "time": "2026-05-20T19:20:43.769363",
+    "type": "change",
+    "total": 8,
+    "added": 0,
+    "removed": 1,
+    "price_changed": 0,
+    "added_items": [],
+    "removed_items": [
+      "FWUY3TA/A"
+    ]
   }
 ]
