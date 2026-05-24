@@ -2,14 +2,15 @@ name: Apple 整修品監控
 
 on:
   schedule:
-    - cron: '0 * * * *'   # 每小時整點執行
-  workflow_dispatch:        # 允許手動觸發
+    - cron: '*/5 * * * *'  # 每 5 分鐘執行一次（GitHub Actions 最小間隔）
+                             # 腳本內部 loop 5 次 × 60 秒 = 等效每 1 分鐘查一次
+  workflow_dispatch:          # 允許手動觸發
 
 jobs:
   monitor:
     runs-on: ubuntu-latest
     permissions:
-      contents: write       # 允許 commit state 回 repo
+      contents: write         # 允許 commit state 回 repo
 
     steps:
       - name: Checkout
@@ -24,13 +25,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run Apple Refurb Monitor
+      - name: Run Apple Refurb Monitor（每分鐘查一次，連續 5 次）
         env:
           GITHUB_ACTIONS: 'true'
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           TO_EMAIL: ${{ secrets.TO_EMAIL }}
-        run: python apple_refurb_monitor.py
+        run: python apple_refurb_monitor.py --loop 5 --interval 60
 
       - name: Commit state changes
         run: |

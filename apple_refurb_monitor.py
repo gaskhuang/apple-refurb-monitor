@@ -1,12 +1,18 @@
 #!/usr/bin/env python3
 """
 Apple 台灣整修品 Mac 即時監控
-- 每小時爬取 https://www.apple.com/tw/shop/refurbished/mac
-- 比對上次快照，偵測新上架 / 已下架商品
+- 每分鐘呼叫 Apple 官方 buyability-message API（輕量、即時）
+- 每 5 分鐘重新抓頁面，偵測新上架 / 已下架商品
 - 有變動才寄送 email 通知
 - 記錄每次變動時間，分析 Apple 更新規律
+
+用法:
+    python apple_refurb_monitor.py                   # 執行一次
+    python apple_refurb_monitor.py --loop 5          # 內部 loop 5 次（每次 60 秒）
+    python apple_refurb_monitor.py --loop 5 --interval 60
 """
 
+import argparse
 import requests
 import json
 import re
@@ -21,7 +27,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from collections import Counter
 
-REFURB_URL = "https://www.apple.com/tw/shop/refurbished/mac"
+REFURB_URL     = "https://www.apple.com/tw/shop/refurbished/mac"
+BUYABILITY_API = "https://www.apple.com/tw/shop/buyability-message"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
@@ -568,6 +575,159 @@ def send_email(html_body, subject):
         return send_email_gws(html_body, subject)
 
 
+BUYABILITY_STATE_FILE = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "state", "buyability_state.json"
+)
+
+
+def check_buyability_api(skus: list) -> dict:
+    """
+    呼叫 Apple 官方 buyability-message API，一次查詢所有 SKU 的即時庫存。
+    回傳 { "SKU/A": True/False }
+    比爬整個頁面快 10 倍以上，是核心輪詢用的輕量 API。
+    """
+    import urllib.parse
+    params = "&".join(
+        f"parts.{i}={urllib.parse.quote(s)}" for i, s in enumerate(skus)
+    )
+    url = f"{BUYABILITY_API}?{params}"
+    r = requests.get(url, headers={**HEADERS, "Accept": "application/json"}, timeout=15)
+    r.raise_for_status()
+    sth = r.json()["body"]["content"]["buyabilityMessage"]["sth"]
+    return {sku: info.get("isBuyable", False) for sku, info in sth.items()}
+
+
+def load_buyability_state() -> dict:
+    try:
+        with open(BUYABILITY_STATE_FILE, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def save_buyability_state(state: dict):
+    os.makedirs(os.path.dirname(BUYABILITY_STATE_FILE), exist_ok=True)
+    with open(BUYABILITY_STATE_FILE, "w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False, indent=2)
+
+
+def run_buyability_check(product_catalog: dict) -> bool:
+    """
+    用 buyability API 快速查詢所有 SKU，偵測庫存狀態變化。
+    product_catalog: { sku: {title, refurb_price, ...} }  ← 來自頁面抓取
+    回傳 True 表示有狀態變動（已寄出通知）
+    """
+    now = datetime.now()
+    skus = list(product_catalog.keys())
+    if not skus:
+        print(f"  [API] 無 SKU 可查詢")
+        return False
+
+    try:
+        buyability = check_buyability_api(skus)
+    except Exception as e:
+        print(f"  [API] buyability 查詢失敗: {e}")
+        return False
+
+    prev = load_buyability_state()
+    changed = False
+
+    newly_available = []
+    newly_unavailable = []
+
+    for sku, is_buyable in buyability.items():
+        prev_buyable = prev.get(sku)
+        if prev_buyable is None:
+            # 首次出現，不算「變動」，只記錄
+            pass
+        elif not prev_buyable and is_buyable:
+            newly_available.append(sku)
+        elif prev_buyable and not is_buyable:
+            newly_unavailable.append(sku)
+
+    avail_count   = sum(1 for b in buyability.values() if b)
+    unavail_count = sum(1 for b in buyability.values() if not b)
+    ts = now.strftime("%H:%M:%S")
+    print(
+        f"  [{ts}] buyability API | ✅ {avail_count} 可買 | ❌ {unavail_count} 無庫存"
+        + (f" | 🔔 新有貨: {newly_available}" if newly_available else "")
+        + (f" | 售完: {newly_unavailable}" if newly_unavailable else ""),
+        flush=True
+    )
+
+    # 有新上架（isBuyable 從 False→True）才寄通知
+    if newly_available:
+        changed = True
+        added_products = [
+            {**product_catalog.get(sku, {"title": sku, "refurb_price": 0,
+             "original_price": 0, "savings": 0, "savings_pct": 0,
+             "ram": "", "storage": "", "color": "", "screen": "",
+             "is_nano": False, "price_source": ""}),
+             "part_number": sku}
+            for sku in newly_available
+        ]
+        removed_products = [
+            {**product_catalog.get(sku, {"title": sku, "refurb_price": 0,
+             "original_price": 0, "savings": 0, "savings_pct": 0,
+             "ram": "", "storage": "", "color": "", "screen": "",
+             "is_nano": False, "price_source": ""}),
+             "part_number": sku}
+            for sku in newly_unavailable
+        ]
+        changes = {
+            "added": added_products,
+            "removed": removed_products,
+            "price_changed": [],
+            "has_changes": True,
+        }
+        changelog = load_changelog()
+        html, summary = generate_change_email(changes, product_catalog, changelog)
+        subject = f"🍎 Apple 整修品有貨！({now.strftime('%m/%d %H:%M')}) - {summary}"
+        send_email(html, subject)
+
+        changelog.append({
+            "time": now.isoformat(),
+            "type": "buyable_change",
+            "newly_available": newly_available,
+            "newly_unavailable": newly_unavailable,
+        })
+        save_changelog(changelog)
+
+    # 永遠更新 buyability state（供下次比較）
+    save_buyability_state(buyability)
+    return changed
+
+
+def main_loop(loop_count: int, interval: int):
+    """
+    GitHub Actions 專用：在單次 workflow job 內持續輪詢。
+    loop_count × interval 秒 ≒ workflow 排程間隔。
+    範例：loop=5, interval=60 → 5 分鐘內每分鐘查一次。
+    """
+    os.makedirs(DATA_DIR, exist_ok=True)
+
+    print(f"[loop 模式] 共執行 {loop_count} 次，間隔 {interval} 秒")
+
+    # 先做一次完整頁面抓取，建立 product_catalog
+    print("正在抓取產品清單（頁面掃描）...")
+    try:
+        product_catalog = fetch_refurbished_products()
+        print(f"  找到 {len(product_catalog)} 件整修品")
+    except Exception as e:
+        print(f"  頁面抓取失敗: {e}，以空 catalog 繼續")
+        product_catalog = {}
+
+    for i in range(1, loop_count + 1):
+        print(f"\n── 第 {i}/{loop_count} 次 buyability 查詢 ──")
+        run_buyability_check(product_catalog)
+
+        if i < loop_count:
+            print(f"  等待 {interval} 秒後進行下次查詢...", flush=True)
+            time.sleep(interval)
+
+    print("\n[loop 模式] 完成，workflow 結束")
+
+
 def main():
     os.makedirs(DATA_DIR, exist_ok=True)
     os.makedirs(REPORT_DIR, exist_ok=True)
@@ -658,4 +818,18 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Apple 整修品監控")
+    parser.add_argument(
+        "--loop", type=int, default=1,
+        help="在 job 內重複執行次數（GitHub Actions 用，預設 1）"
+    )
+    parser.add_argument(
+        "--interval", type=int, default=60,
+        help="每次查詢間隔秒數（預設 60）"
+    )
+    args = parser.parse_args()
+
+    if args.loop > 1:
+        main_loop(args.loop, args.interval)
+    else:
+        main()
