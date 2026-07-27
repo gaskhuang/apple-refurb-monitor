@@ -17,7 +17,6 @@
   "FHFA4TA/A": true,
   "FX303TA/A": true,
   "FHFG4TA/A": true,
-  "FGDU4TA/A": true,
   "FHFC4TA/A": true,
   "G1E33TA/A": true,
   "FHFF4TA/A": true,
@@ -37,6 +36,5 @@
   "FX2G3TA/A": true,
   "FX2W3TA/A": true,
   "FX2T3TA/A": true,
-  "G1MN0TA/A": true,
-  "G1ML7TA/A": true
+  "G1MN0TA/A": true
 }
