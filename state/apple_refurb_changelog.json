@@ -873,5 +873,13 @@
       "FWUF3TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-09-10T00:25:56.449387",
+    "type": "buyable_change",
+    "newly_available": [
+      "G1N28TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
