@@ -881,5 +881,13 @@
       "G1N28TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-09-18T09:13:47.650688",
+    "type": "buyable_change",
+    "newly_available": [
+      "G1MY9TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
