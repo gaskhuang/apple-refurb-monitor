@@ -889,5 +889,13 @@
       "G1MY9TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-09-29T01:17:47.408518",
+    "type": "buyable_change",
+    "newly_available": [
+      "FC654TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
