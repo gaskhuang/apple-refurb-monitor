@@ -897,5 +897,13 @@
       "FC654TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-10-13T21:01:56.690255",
+    "type": "buyable_change",
+    "newly_available": [
+      "FX2X3TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
