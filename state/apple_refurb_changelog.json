@@ -913,5 +913,13 @@
       "FDHG4TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-10-14T16:21:17.706893",
+    "type": "buyable_change",
+    "newly_available": [
+      "FGDU4TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
