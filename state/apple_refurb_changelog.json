@@ -967,5 +967,13 @@
     "newly_unavailable": [
       "FFEQ4TA/A"
     ]
+  },
+  {
+    "time": "2026-10-15T11:43:32.700968",
+    "type": "buyable_change",
+    "newly_available": [
+      "FX2J3TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
