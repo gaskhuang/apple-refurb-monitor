@@ -931,5 +931,23 @@
       "G1H80TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-10-15T01:53:04.968847",
+    "type": "buyable_change",
+    "newly_available": [
+      "FX2Y3TA/A"
+    ],
+    "newly_unavailable": [
+      "G1FF9TA/A"
+    ]
+  },
+  {
+    "time": "2026-10-15T01:54:18.277213",
+    "type": "buyable_change",
+    "newly_available": [
+      "G1FF9TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
