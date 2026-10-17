@@ -991,5 +991,13 @@
       "G1DH0TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-10-17T15:45:02.046985",
+    "type": "buyable_change",
+    "newly_available": [
+      "FDHJ4TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
