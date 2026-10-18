@@ -1015,5 +1015,13 @@
       "FDH74TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-10-18T13:48:37.653393",
+    "type": "buyable_change",
+    "newly_available": [
+      "FX303TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
