@@ -1039,5 +1039,13 @@
       "FC6L4TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-10-23T21:34:50.815207",
+    "type": "buyable_change",
+    "newly_available": [
+      "G1FF9TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
