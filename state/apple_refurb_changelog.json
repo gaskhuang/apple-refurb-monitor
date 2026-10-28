@@ -1080,5 +1080,13 @@
       "FDHJ4TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-10-28T02:48:05.194843",
+    "type": "buyable_change",
+    "newly_available": [
+      "G1L52TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
