@@ -1088,5 +1088,13 @@
       "G1L52TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-10-28T23:37:08.081936",
+    "type": "buyable_change",
+    "newly_available": [
+      "FX303TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
