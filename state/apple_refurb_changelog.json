@@ -1096,5 +1096,13 @@
       "FX303TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-10-30T20:53:45.386171",
+    "type": "buyable_change",
+    "newly_available": [
+      "G1CW0TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
