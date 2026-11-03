@@ -1145,5 +1145,13 @@
       "G1KK2TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-03T09:46:34.556411",
+    "type": "buyable_change",
+    "newly_available": [
+      "G1CD5TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
