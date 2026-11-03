@@ -1153,5 +1153,13 @@
       "G1CD5TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-03T23:44:49.770501",
+    "type": "buyable_change",
+    "newly_available": [
+      "FX2F3TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
