@@ -1136,5 +1136,14 @@
       "G1KK2TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-03T09:26:35.674865",
+    "type": "buyable_change",
+    "newly_available": [
+      "FDH94TA/A",
+      "G1KK2TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
