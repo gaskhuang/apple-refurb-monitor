@@ -1,5 +1,5 @@
 {
-  "FW1G3TA/A": true,
+  "FW1G3TA/A": false,
   "FWV13TA/A": true,
   "FX2K3TA/A": true,
   "FGEC4TA/A": true,
@@ -98,5 +98,5 @@
   "FX2W3TA/A": true,
   "FDE14TA/A": true,
   "FX2T3TA/A": true,
-  "FU963TA/A": true
+  "FU963TA/A": false
 }
