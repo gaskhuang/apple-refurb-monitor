@@ -1169,5 +1169,13 @@
       "G1L60TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-05T18:39:23.134699",
+    "type": "buyable_change",
+    "newly_available": [
+      "G1L30TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
