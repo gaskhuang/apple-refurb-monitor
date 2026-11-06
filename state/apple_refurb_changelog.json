@@ -1177,5 +1177,21 @@
       "G1L30TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-06T04:41:48.768590",
+    "type": "buyable_change",
+    "newly_available": [
+      "FDE54TA/A"
+    ],
+    "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-06T04:44:05.945209",
+    "type": "buyable_change",
+    "newly_available": [
+      "FDH74TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
