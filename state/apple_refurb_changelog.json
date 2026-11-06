@@ -1193,5 +1193,13 @@
       "FDH74TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-06T14:23:21.621754",
+    "type": "buyable_change",
+    "newly_available": [
+      "FDVQ4TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
