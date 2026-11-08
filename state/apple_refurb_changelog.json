@@ -1241,5 +1241,13 @@
       "G1H80TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-08T04:45:51.091508",
+    "type": "buyable_change",
+    "newly_available": [
+      "G1JV7TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
