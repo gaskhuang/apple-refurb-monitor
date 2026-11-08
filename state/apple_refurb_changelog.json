@@ -1257,5 +1257,13 @@
       "FFEP4TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-08T20:25:48.147669",
+    "type": "buyable_change",
+    "newly_available": [
+      "FWUU3TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
