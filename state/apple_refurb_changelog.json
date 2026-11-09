@@ -1265,5 +1265,14 @@
       "FWUU3TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-09T03:41:18.402517",
+    "type": "buyable_change",
+    "newly_available": [
+      "FGDT4TA/A",
+      "FX303TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
