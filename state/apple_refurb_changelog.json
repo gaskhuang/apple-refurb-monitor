@@ -1282,5 +1282,13 @@
       "FX2J3TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-10T16:54:37.919528",
+    "type": "buyable_change",
+    "newly_available": [
+      "FX2W3TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
