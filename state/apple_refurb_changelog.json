@@ -1314,5 +1314,13 @@
       "FHFH4TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-12T06:46:28.231360",
+    "type": "buyable_change",
+    "newly_available": [
+      "FHFG4TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
