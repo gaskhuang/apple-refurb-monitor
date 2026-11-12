@@ -5,7 +5,6 @@
   "G1N21TA/A": true,
   "G1LS0TA/A": true,
   "FFEL4TA/A": true,
-  "FDVA4TA/A": false,
   "G1FF5TA/A": true,
   "G1FF9TA/A": true,
   "G1K12TA/A": true,
@@ -17,7 +16,6 @@
   "G1N22TA/A": true,
   "G1K56TA/A": true,
   "FX303TA/A": true,
-  "FHFG4TA/A": false,
   "FDVH4TA/A": true,
   "FHFD4TA/A": true,
   "G1JV8TA/A": true,
@@ -37,6 +35,7 @@
   "FWUU3TA/A": true,
   "G1L91TA/A": true,
   "FHFE4TA/A": true,
+  "FDV94TA/A": true,
   "FGE44TA/A": true,
   "FGED4TA/A": true,
   "FX2G3TA/A": true,
@@ -44,6 +43,5 @@
   "FX2J3TA/A": true,
   "G1H80TA/A": true,
   "FX2W3TA/A": true,
-  "FDE14TA/A": false,
   "FX2T3TA/A": true
 }
