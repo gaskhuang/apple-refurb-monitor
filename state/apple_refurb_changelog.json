@@ -1330,5 +1330,13 @@
       "FDV94TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-13T05:36:01.057276",
+    "type": "buyable_change",
+    "newly_available": [
+      "FGED4TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
