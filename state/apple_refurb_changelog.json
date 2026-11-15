@@ -1346,5 +1346,13 @@
       "FWV13TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-15T01:22:48.104021",
+    "type": "buyable_change",
+    "newly_available": [
+      "FGEA4TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
