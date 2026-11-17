@@ -1402,5 +1402,13 @@
       "FGDR4TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-17T16:47:08.762778",
+    "type": "buyable_change",
+    "newly_available": [
+      "FX2V3TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
