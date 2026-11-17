@@ -1386,5 +1386,21 @@
       "FW0X3TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-17T16:39:30.248188",
+    "type": "buyable_change",
+    "newly_available": [
+      "FX2V3TA/A"
+    ],
+    "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-17T16:42:44.115061",
+    "type": "buyable_change",
+    "newly_available": [
+      "FGDR4TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
