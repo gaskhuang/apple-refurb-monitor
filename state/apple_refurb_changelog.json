@@ -1478,5 +1478,21 @@
     "newly_unavailable": [
       "FHFD4TA/A"
     ]
+  },
+  {
+    "time": "2026-11-17T17:44:01.284760",
+    "type": "buyable_change",
+    "newly_available": [
+      "FHFD4TA/A"
+    ],
+    "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-17T17:46:10.056981",
+    "type": "buyable_change",
+    "newly_available": [
+      "FDHF4TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
