@@ -1426,5 +1426,35 @@
       "FX2J3TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-17T17:30:10.471554",
+    "type": "buyable_change",
+    "newly_available": [
+      "FC6K4TA/A",
+      "G1MHATA/A"
+    ],
+    "newly_unavailable": [
+      "FDHJ4TA/A",
+      "FFF14TA/A"
+    ]
+  },
+  {
+    "time": "2026-11-17T17:31:16.575980",
+    "type": "buyable_change",
+    "newly_available": [
+      "FDHJ4TA/A",
+      "FFF14TA/A"
+    ],
+    "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-17T17:33:36.285536",
+    "type": "buyable_change",
+    "newly_available": [
+      "FFEP4TA/A",
+      "G1DH0TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
