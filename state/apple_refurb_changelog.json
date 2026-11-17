@@ -1772,5 +1772,15 @@
       "G1MHATA/A",
       "G1DF0TA/A"
     ]
+  },
+  {
+    "time": "2026-11-17T19:38:11.984266",
+    "type": "buyable_change",
+    "newly_available": [
+      "FFEP4TA/A",
+      "G1MHATA/A",
+      "G1DF0TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
