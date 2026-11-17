@@ -1701,5 +1701,76 @@
       "G1FF5TA/A",
       "FX2Y3TA/A"
     ]
+  },
+  {
+    "time": "2026-11-17T19:28:09.798623",
+    "type": "buyable_change",
+    "newly_available": [
+      "G1FF5TA/A",
+      "FX2Y3TA/A"
+    ],
+    "newly_unavailable": [
+      "FWV13TA/A",
+      "FHFA4TA/A",
+      "FHFD4TA/A",
+      "FX2U3TA/A",
+      "FWUU3TA/A",
+      "FX2T3TA/A"
+    ]
+  },
+  {
+    "time": "2026-11-17T19:29:23.170379",
+    "type": "buyable_change",
+    "newly_available": [
+      "FWV13TA/A",
+      "FHFA4TA/A",
+      "FHFD4TA/A",
+      "FX2U3TA/A",
+      "FWUU3TA/A",
+      "FX2T3TA/A"
+    ],
+    "newly_unavailable": [
+      "FX2K3TA/A",
+      "G1K12TA/A",
+      "G1K82TA/A",
+      "G1MJ0TA/A"
+    ]
+  },
+  {
+    "time": "2026-11-17T19:30:35.051338",
+    "type": "buyable_change",
+    "newly_available": [
+      "FX2K3TA/A",
+      "G1K12TA/A",
+      "G1K82TA/A",
+      "G1MJ0TA/A"
+    ],
+    "newly_unavailable": [
+      "FX2F3TA/A",
+      "FHFF4TA/A"
+    ]
+  },
+  {
+    "time": "2026-11-17T19:31:47.893648",
+    "type": "buyable_change",
+    "newly_available": [
+      "FX2F3TA/A",
+      "FHFF4TA/A"
+    ],
+    "newly_unavailable": [
+      "FX2K3TA/A"
+    ]
+  },
+  {
+    "time": "2026-11-17T19:32:57.504102",
+    "type": "buyable_change",
+    "newly_available": [
+      "FX2K3TA/A"
+    ],
+    "newly_unavailable": [
+      "FFEP4TA/A",
+      "G1MHATA/A",
+      "G1DF0TA/A"
+    ]
   }
 ]
