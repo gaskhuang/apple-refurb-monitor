@@ -1518,5 +1518,23 @@
       "G1MHATA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-17T18:42:55.574746",
+    "type": "buyable_change",
+    "newly_available": [
+      "FGDN4TA/A"
+    ],
+    "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-17T18:45:11.790589",
+    "type": "buyable_change",
+    "newly_available": [
+      "G1N22TA/A"
+    ],
+    "newly_unavailable": [
+      "G1H80TA/A"
+    ]
   }
 ]
