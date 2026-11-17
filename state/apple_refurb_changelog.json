@@ -1606,5 +1606,35 @@
       "G1N22TA/A",
       "FHFG4TA/A"
     ]
+  },
+  {
+    "time": "2026-11-17T19:04:38.009671",
+    "type": "buyable_change",
+    "newly_available": [
+      "FGDN4TA/A",
+      "G1N22TA/A",
+      "FHFG4TA/A"
+    ],
+    "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-17T19:06:57.106502",
+    "type": "buyable_change",
+    "newly_available": [
+      "FX2U3TA/A"
+    ],
+    "newly_unavailable": [
+      "FX2K3TA/A"
+    ]
+  },
+  {
+    "time": "2026-11-17T19:09:08.543336",
+    "type": "buyable_change",
+    "newly_available": [
+      "FX2K3TA/A"
+    ],
+    "newly_unavailable": [
+      "FX2G3TA/A"
+    ]
   }
 ]
