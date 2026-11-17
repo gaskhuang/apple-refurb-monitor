@@ -1456,5 +1456,27 @@
       "G1DH0TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-17T17:39:27.512744",
+    "type": "buyable_change",
+    "newly_available": [
+      "FFEP4TA/A",
+      "FX303TA/A",
+      "FHFD4TA/A"
+    ],
+    "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-17T17:41:42.606672",
+    "type": "buyable_change",
+    "newly_available": [
+      "FDHJ4TA/A",
+      "G1K82TA/A",
+      "FX2U3TA/A"
+    ],
+    "newly_unavailable": [
+      "FHFD4TA/A"
+    ]
   }
 ]
