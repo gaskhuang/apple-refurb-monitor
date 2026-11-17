@@ -1536,5 +1536,43 @@
     "newly_unavailable": [
       "G1H80TA/A"
     ]
+  },
+  {
+    "time": "2026-11-17T18:47:47.303576",
+    "type": "buyable_change",
+    "newly_available": [
+      "G1H80TA/A"
+    ],
+    "newly_unavailable": [
+      "FX313TA/A"
+    ]
+  },
+  {
+    "time": "2026-11-17T18:48:54.712137",
+    "type": "buyable_change",
+    "newly_available": [
+      "FX313TA/A"
+    ],
+    "newly_unavailable": [
+      "G1FF9TA/A"
+    ]
+  },
+  {
+    "time": "2026-11-17T18:49:59.484532",
+    "type": "buyable_change",
+    "newly_available": [
+      "G1FF9TA/A"
+    ],
+    "newly_unavailable": [
+      "FDHF4TA/A"
+    ]
+  },
+  {
+    "time": "2026-11-17T18:51:11.189437",
+    "type": "buyable_change",
+    "newly_available": [
+      "FDHF4TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
