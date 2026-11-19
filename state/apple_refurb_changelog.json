@@ -1832,5 +1832,13 @@
       "FGDN4TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-19T17:12:53.139250",
+    "type": "buyable_change",
+    "newly_available": [
+      "FWV13TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
