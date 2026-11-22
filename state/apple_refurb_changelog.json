@@ -1971,5 +1971,13 @@
       "G1K12TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-22T23:01:09.875060",
+    "type": "buyable_change",
+    "newly_available": [
+      "FFEL4TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
