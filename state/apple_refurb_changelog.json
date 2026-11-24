@@ -1987,5 +1987,13 @@
       "FDE34TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-24T10:53:54.723750",
+    "type": "buyable_change",
+    "newly_available": [
+      "G1KJ2TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
