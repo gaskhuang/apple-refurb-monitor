@@ -1979,5 +1979,13 @@
       "FFEL4TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-24T09:56:07.547488",
+    "type": "buyable_change",
+    "newly_available": [
+      "FDE34TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
