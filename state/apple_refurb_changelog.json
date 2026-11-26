@@ -2003,5 +2003,13 @@
       "FDH84TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-26T05:17:07.240576",
+    "type": "buyable_change",
+    "newly_available": [
+      "FC6T4TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
