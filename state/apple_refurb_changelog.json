@@ -2027,5 +2027,13 @@
       "FDH74TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-26T14:19:41.092619",
+    "type": "buyable_change",
+    "newly_available": [
+      "G1L60TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
