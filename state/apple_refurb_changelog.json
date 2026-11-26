@@ -2011,5 +2011,13 @@
       "FC6T4TA/A"
     ],
     "newly_unavailable": []
+  },
+  {
+    "time": "2026-11-26T09:27:37.710470",
+    "type": "buyable_change",
+    "newly_available": [
+      "G1KK2TA/A"
+    ],
+    "newly_unavailable": []
   }
 ]
